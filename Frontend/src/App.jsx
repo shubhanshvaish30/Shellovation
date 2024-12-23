@@ -132,7 +132,7 @@ function App() {
       <ToastContainer/>
         <Navbar setShowLogin={setShowLogin}/>
         <Routes>
-          <Route path="/" element={userId?<Home/>:<AdminHome/>}/>
+          <Route path="/" element={!sellerId?<Home/>:<AdminHome/>}/>
           <Route
             path="/login"
             element={!userId?<Login setShowLogin={setShowLogin}/>:<Navigate to="/"/>}

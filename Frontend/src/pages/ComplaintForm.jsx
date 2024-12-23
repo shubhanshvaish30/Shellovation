@@ -13,7 +13,7 @@ const ComplaintForm = () => {
     setIsLoading(true);
 
     try {
-      const response = await axios.post('http://localhost:8080/complaints/post-complaints', {
+      const response = await axios.post('https://shellovation.onrender.com/complaints/post-complaints', {
         name,
         email,
         message,

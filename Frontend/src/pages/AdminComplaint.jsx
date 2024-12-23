@@ -8,7 +8,7 @@ const AdminComplaint = () => {
   useEffect(() => {
     const fetchComplaints = async () => {
       try {
-        const response = await axios.get('http://localhost:8080/complaints/get-complaints');
+        const response = await axios.get('https://shellovation.onrender.com/complaints/get-complaints');
         if (response.data.success) {
           setComplaints(response.data.complaints);
         } else {
@@ -27,7 +27,7 @@ const AdminComplaint = () => {
 
   const handleStatusChange = async (complaintNumber, newStatus) => {
     try {
-      const response = await axios.put('http://localhost:8080/complaints/update-complaint-status', {
+      const response = await axios.put('https://shellovation.onrender.com/complaints/update-complaint-status', {
         complaintId: complaintNumber,
         status: newStatus,
       });
