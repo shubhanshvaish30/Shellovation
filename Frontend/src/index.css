@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .nav-link {
+    @apply relative inline-block px-4 py-2 text-gray-700 hover:text-blue-600 transition-colors duration-300;
+  }
+
+  .nav-link::after {
+    @apply content-[''] absolute bottom-0 left-0 w-0 h-0.5 bg-blue-600 transition-all duration-300;
+  }
+
+  .nav-link:hover::after {
+    @apply w-full;
+  }
+
+  .dropdown-content {
+    @apply invisible opacity-0 absolute bg-white/90 backdrop-blur-md min-w-[160px] shadow-lg rounded-md 
+    transition-all duration-300 transform -translate-y-2 group-hover:visible group-hover:opacity-100 
+    group-hover:translate-y-0 z-50;
+  }
+
+  .dropdown-content a {
+    @apply block px-4 py-2 text-gray-700 hover:bg-blue-50 transition-colors duration-200;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Outfit;
+}
+body {
+  min-height: 100vh;
+}

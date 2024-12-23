@@ -1,0 +1,112 @@
+.place-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.place-container h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+
+.address-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.address-item {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.address-item:hover {
+    background-color: #f0f0f0;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.address-item.selected {
+    border-color: #007bff;
+    background-color: #e0f7ff;
+}
+
+.address-item p {
+    margin: 5px 0;
+    color: #555;
+    font-size: 1.1em;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center; /* Center buttons horizontally */
+    gap: 15px; /* Add gap between buttons */
+    margin-top: 20px;
+}
+
+.btn-add-new {
+    background-color: #989898;
+    color: white;
+    padding: 10px 15px; /* Adjust padding for desired size */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1em;
+    width: 150px; /* Adjust width as needed */
+    text-align: center; /* Center text horizontally */
+}
+.btn-proceed{
+    background-color: #989898;
+    color: white;
+    padding: 10px 15px; /* Adjust padding for desired size */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1em;
+    width: 150px; /* Adjust width as needed */
+    text-align: center;
+}
+
+.btn-add-new:hover {
+    background-color: #5a6268;
+}
+
+.btn-proceed:hover {
+    background-color: #5a6268;
+}
+
+.no-address {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    text-align: center;
+}
+
+.no-address p {
+    font-size: 1.5em;
+    color: #777;
+    margin-bottom: 20px;
+}

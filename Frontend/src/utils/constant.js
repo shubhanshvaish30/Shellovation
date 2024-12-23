@@ -1,0 +1,2 @@
+export const url="http://localhost:8080"
+export const STRIPE_PUBLIC_KEY='pk_test_51PwgFh02pjJPSkMMH509zLrYBAFoCNr0YZDgfzexpGshO9udy3SRqvEcLM0mbLnBXqjCkgH6JMiC4Ou3TkowgcLu00mb2eppsc'

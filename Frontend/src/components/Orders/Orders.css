@@ -1,0 +1,130 @@
+.orders-container-box {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: #fff;
+    margin: 20px auto;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.orders-container {
+    padding: 20px;
+    width: 100%;
+}
+
+.filter-buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.filter-btn {
+    padding: 10px 15px;
+    margin: 0 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #333;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.filter-btn:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+.filter-btn.active {
+    background-color: #333;
+    color: #fff;
+}
+
+.orders-list {
+    border-top: 1px solid #ddd;
+}
+
+.order-item {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.order-header {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+.order-header h2 {
+    font-size: 1.4em;
+    margin: 0;
+}
+
+.order-header p {
+    margin: 0;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #4CAF50;
+}
+
+.payment-status {
+    margin-top: 10px;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #f44336;
+}
+
+.order-items {
+    margin-top: 10px;
+}
+
+.order-item-details {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.order-item-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 20px;
+    border: 1px solid #ddd;
+    padding: 5px;
+}
+
+.order-item-info {
+    flex-grow: 1;
+}
+
+.view-details-btn {
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.view-details-btn:hover {
+    background-color: #45a049;
+}
+
+.empty-cart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-size: 1.2em;
+}

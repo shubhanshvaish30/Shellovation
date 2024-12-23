@@ -1,0 +1,69 @@
+.shipping {
+    width: 60%;
+    margin: 30px auto;
+    color: #6d6d6d;
+    font-size: 16px;
+}
+
+.shipping-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px; /* Adjust width of the form */
+    margin: 0 auto; /* Center the form */
+}
+
+.shipping-form h2{
+    margin-bottom: 10px;
+    font-weight: 350;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 100%;
+}
+
+.form-group label {
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group select {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+    border-color: #80bdff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.25);
+}
+
+.btn-save {
+    max-width: 120px;
+    padding: 10px;
+    font-size: 1rem;
+    color: #6d6d6d;
+    background-color: white;
+    border: 1px solid #6d6d6d;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    align-self: center; /* Center the button */
+}
+
+.btn-save:hover {
+    background-color: #6d6d6d;
+    color: white;
+}

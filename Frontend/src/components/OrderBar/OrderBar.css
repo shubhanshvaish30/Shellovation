@@ -1,0 +1,49 @@
+.order-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    margin: 20px auto;
+  }
+  
+  .steps {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center align the icon and text */
+    text-align: center;
+  }
+  
+  .step-icon {
+    width: 50px; /* Increase icon size */
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px; /* Icon size */
+    color: white;
+    background-color: #ccc;
+    border-radius: 50%;
+    position: relative;
+  }
+  
+  .step-icon.completed {
+    background-color: #000000; /* Green for completed steps */
+  }
+  
+  .steps div {
+    margin-top: 8px; /* Add space between icon and text */
+    font-size: 20px; /* Adjust font size for step name */
+    color: white;
+    white-space: nowrap; /* Prevent text from wrapping */
+  }
+  
+  .step-line {
+    flex: 1;
+    height: 3px;
+    background-color: #ccc;
+  }
+  
+  .step-line.completed {
+    background-color: #000000;
+  }
+  

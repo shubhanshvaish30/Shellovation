@@ -1,0 +1,129 @@
+.confirmation-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.confirmation h2 {
+    text-align: center;
+    color: #333;
+}
+
+.confirmation-section {
+    margin-bottom: 20px;
+}
+
+.confirmation-section h3 {
+    margin: 10px 0;
+    color: #444;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.confirmation-section p {
+    margin: 5px 0;
+    line-height: 1.5;
+}
+
+.confirmation-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.proceed-btn {
+    max-width: 150px;
+    padding: 10px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #989898;
+    border: 1px solid #989898;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.proceed-btn:hover {
+    background-color: #5a6268;
+    border-color: #5a6268;
+}
+
+.cart-items {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.cart-item img {
+    max-width: 100px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.item-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.item-details h2 {
+    margin: 0 0 10px;
+    font-size: 1.2em;
+    color: #555;
+}
+
+.item-details p {
+    margin: 5px 0;
+    color: #777;
+}
+
+.quantity-controls {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.quantity-controls p {
+    margin: 0;
+}
+
+.increment-btn, .decrement-btn {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.increment-btn:hover, .decrement-btn:hover {
+    background-color: rgb(202, 202, 202);
+}
+
+.empty-cart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    text-align: center;
+}
+
+.empty-cart img {
+    max-width: 350px;
+}
+
+.empty-cart p {
+    font-size: 1.5em;
+    color: #777;
+}

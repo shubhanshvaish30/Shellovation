@@ -1,0 +1,48 @@
+.explore{
+    margin: 5px 20px;
+    padding: 20px;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.explore h1{
+    text-align: start;
+    font-size: max(2vw,24px);
+    color: black;
+    font-weight: 150;
+    padding-left: 20px;
+    margin-bottom: 0px;
+}
+.explore-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+    margin: 20px 0px;
+    overflow-x: scroll;
+}
+.explore-list::-webkit-scrollbar{
+    display: none;
+}
+.explore-list-item img{
+    width: 16vw;
+    min-width: 80px;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: 0.2s;
+}
+.explore-list-item p{
+    margin-top: 10px;
+    color: black;
+    font-size: max(1.4vw,16px);
+    cursor: pointer;
+}
+.explore-list-item .active{
+    border: 3px solid black;
+    padding: 3px;
+}
+.explore-list-item a{
+    text-decoration: none;
+}

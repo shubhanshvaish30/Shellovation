@@ -1,0 +1,20 @@
+.prod-display{
+    /* margin-top: 30px; */
+    margin: 5px 20px;
+    padding: 20px;
+    padding-top: 0px;
+}
+.prod-display h1{
+    text-align: start;
+    font-size: max(2vw,24px);
+    color: black;
+    font-weight: 150;
+    padding-left: 20px;
+}
+.product-item-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(240px,1fr));
+    margin-top: 30px;
+    gap: 30px;
+    row-gap: 50px;
+}
